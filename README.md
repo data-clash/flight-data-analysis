@@ -52,6 +52,8 @@ Hawaiin Airline was the best performing airline.
 
 For Jupyter notebook to successfully convert notebook to slides you will need reveal-3.5.js and output_toggle.tpl file (Source: https://github.com/damianavila/blog/blob/master/posts/hide-the-input-cells-from-your-ipython-slides.ipynb) 
 
+Unzip the reveal.js folder and place it in the same folder as the jupyter notebook you want to convert to slides to get the slide conversion. 
+
 I have included both in this project. 
 
 > Use the following command to convert jupyter notebook to slides: 
