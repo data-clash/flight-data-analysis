@@ -1,6 +1,10 @@
 # Flights Data Analysis
 ## by Anuja Jadhav
 
+## Main Files
+1. exploration_template.ipynb - This Jupyter Notebook contains section templates to help you organize your exploration, starting from loading in the data, working through univariate visualizations, and ending with bivariate and multivariate exploration. At the end of each section, there are questions to help you summarize your findings.
+
+2. slide_deck_template.ipynb - This Jupyter Notebook contains starter cells to help you organize your slide deck deliverable. These cells provide an example of how the slide deck should be organized, including pre-set slideshow settings.
 
 ## Dataset 
 
@@ -25,11 +29,11 @@ In the second part, I took the main findings from the exploration and conveyed t
 
 ## Key Insights for Presentation
 
->Overall we can say that 2012, there were least airline problems than other years.
->All time Lowest Average Carrier Delay Minutes: Hawaiian Airlines
->All time Lowest Number of Carrier Delays: Alaska Airlines
->All time Lowest Cancellation Ratio: Hawaiian Airlines
->All time Lowest Diversion Ratio: Hawaiian Airlines
+1. Overall we can say that 2012, there were least airline problems than other years.
+2. All time Lowest Average Carrier Delay Minutes: Hawaiian Airlines
+3. All time Lowest Number of Carrier Delays: Alaska Airlines
+4. All time Lowest Cancellation Ratio: Hawaiian Airlines
+5. All time Lowest Diversion Ratio: Hawaiian Airlines
 
 ## Feedback (From a friend) 
 > What do you notice about each visualization?
@@ -44,4 +48,11 @@ Successful flight arrival information is missing.
 > What do you think is the main takeaway from the slide deck?
 Hawaiin Airline was the best performing airline.
 
+## Note
 
+For Jupyter notebook to successfully convert notebook to slides you will need reveal-3.5.js and output_toggle.tpl file (Source: https://github.com/damianavila/blog/blob/master/posts/hide-the-input-cells-from-your-ipython-slides.ipynb) 
+
+I have included both in this project. 
+
+> Use the following command to convert jupyter notebook to slides: 
+jupyter nbconvert slide_deck_template.ipynb --to slides --template output_toggle
